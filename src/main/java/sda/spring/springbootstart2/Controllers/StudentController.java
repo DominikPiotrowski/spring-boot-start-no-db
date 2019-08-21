@@ -28,7 +28,7 @@ public class StudentController {
     public void deleteStudentById(@PathVariable("id") int id) {
         studentService.deleteStudentById(id);
     }
-    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE) //podajemy JSONa
+    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE) //dajemy JSON
     public void addStudent(@RequestBody Student student){
         studentService.addStudent(student);
     }

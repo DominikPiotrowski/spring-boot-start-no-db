@@ -6,12 +6,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.6.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>sda.spring</groupId>
-    <artifactId>spring-boot-start2</artifactId>
+    <artifactId>spring-boot-start-no-db</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-start2</name>
+    <name>spring-boot-start-no-db</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

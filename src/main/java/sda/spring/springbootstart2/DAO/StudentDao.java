@@ -10,7 +10,6 @@ import java.util.Map;
 @Repository
 public class StudentDao implements StudentDaoImpl {
 
-    //jakaś kolekcja tworząca obiekty klasy student:
     private static Map<Integer, Student> students;
     static {
         students = new HashMap<Integer,Student>() {
